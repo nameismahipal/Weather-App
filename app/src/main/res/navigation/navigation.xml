@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
+        app:startDestination="@id/todayWeatherFragment">
+
+    <fragment android:id="@+id/todayWeatherFragment"
+              android:name="com.androidcitizen.www.weatherapp.TodayWeatherFragment"
+              android:label="fragment_today_weather" tools:layout="@layout/fragment_today_weather"/>
+    <fragment android:id="@+id/futureWeatherFragment"
+              android:name="com.androidcitizen.www.weatherapp.FutureWeatherFragment"
+              android:label="fragment_future_weather_list" tools:layout="@layout/fragment_future_weather_list"/>
+    <fragment android:id="@+id/settingsFragment" android:name="com.androidcitizen.www.weatherapp.SettingsFragment"
+              android:label="fragment_settings" tools:layout="@layout/fragment_settings"/>
+</navigation>
