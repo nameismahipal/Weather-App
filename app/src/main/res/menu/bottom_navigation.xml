@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-            android:id="@+id/navigation_today"
+            android:id="@+id/todayWeatherFragment"
             android:icon="@drawable/ic_outline_today_24px"
             android:title="@string/title_today"/>
 
     <item
-            android:id="@+id/navigation_future"
+            android:id="@+id/futureWeatherFragment"
             android:icon="@drawable/ic_outline_next_week_24px"
             android:title="@string/title_future"/>
 
     <item
-            android:id="@+id/navigation_settings"
+            android:id="@+id/settingsFragment"
             android:icon="@drawable/ic_outline_settings_24px"
             android:title="@string/title_settings"/>
 
